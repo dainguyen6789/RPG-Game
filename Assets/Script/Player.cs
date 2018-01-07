@@ -24,7 +24,7 @@ public class Player : MonoBehaviour {
 
 	void OnTriggerEnter(Collider collider)
 	{
-		currentHealthPoints = currentHealthPoints - 1;
+		currentHealthPoints = currentHealthPoints - 0.2f;
 		if (currentHealthPoints < 0)
 			currentHealthPoints = 0;
 	}
