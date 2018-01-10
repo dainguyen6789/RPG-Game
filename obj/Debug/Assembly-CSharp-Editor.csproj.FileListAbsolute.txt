@@ -3,6 +3,7 @@ C:\Users\pc\Documents\Pug\Temp\bin\Debug\Assembly-CSharp-Editor.pdb
 C:\Users\pc\Documents\Pug\Temp\bin\Debug\nunit.framework.dll
 C:\Users\pc\Documents\Pug\Temp\bin\Debug\UnityEditor.Advertisements.dll
 C:\Users\pc\Documents\Pug\Temp\bin\Debug\UnityEditor.Analytics.dll
+C:\Users\pc\Documents\Pug\Temp\bin\Debug\UnityEditor.Android.Extensions.dll
 C:\Users\pc\Documents\Pug\Temp\bin\Debug\UnityEditor.dll
 C:\Users\pc\Documents\Pug\Temp\bin\Debug\UnityEditor.Graphs.dll
 C:\Users\pc\Documents\Pug\Temp\bin\Debug\UnityEditor.HoloLens.dll
