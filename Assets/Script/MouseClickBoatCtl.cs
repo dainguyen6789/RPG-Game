@@ -5,6 +5,7 @@ using UnityStandardAssets.Characters.ThirdPerson;
 
 public class MouseClickBoatCtl : MonoBehaviour {
 	AICharacterControl aiCharacterControl;
+	Vector3 distance;
 	[SerializeField] GameObject emptyObj;
 	// Use this for initialization
 	void Start () {
@@ -21,6 +22,10 @@ public class MouseClickBoatCtl : MonoBehaviour {
 			{
 				emptyObj.transform.position = hit.point;
 				aiCharacterControl.SetTarget(emptyObj.transform);
+			}
+			distance =(transform.position-emptyObj.transform.position);
+			if (Mathf.Pow(distance.x,2)+Mathf.Pow(distance.y,2)<= 15) {
+				aiCharacterControl.SetTarget(this.transform);
 			}
 		}
 	}
